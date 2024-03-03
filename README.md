@@ -92,6 +92,15 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
+## Contributing Members
+
+
+
+|Name     |  Email   | Edu Mail|
+|---------|-----------------|----------------------|
+|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
+|Dat Minh Nguyen |     dat.minhnguyen@gmail.com    | 21521937@gm.uit.edu.vn|
+
 Task Assignments Responsibility
 -----------------------------------
 |No.|Task|Resposibility Member|
@@ -106,17 +115,10 @@ Task Assignments Responsibility
 |8|Demo App|Dat Minh Nguyen|
 |10|Report|Truc Mai-Thanh Nguyen|
 
-Project Timeline
-----------------------
-
-## Contributing Members
+![Image Description]("https://github.com/truc-nmt/tiki_discount_rate/blob/main/images/tiki_book.png")
 
 
 
-|Name     |  Email   | Edu Mail|
-|---------|-----------------|----------------------|
-|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
-|Dat Minh Nguyen |     dat.minhnguyen@gmail.com    | 21521937@gm.uit.edu.vn|
 
 --------
 <!-- 
