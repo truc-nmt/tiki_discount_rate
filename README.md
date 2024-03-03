@@ -101,7 +101,7 @@ Project Organization
 |Name     |  Email   | Edu Mail|
 |---------|-----------------|----------------------|
 |Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
-|Dat Minh Nguyen |     dat.minhnguyen@gmail.com    | 21521937@gm.uit.edu.vn|
+|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
 
 Task Assignments Responsibility
 -----------------------------------
