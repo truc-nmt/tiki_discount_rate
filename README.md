@@ -118,5 +118,5 @@ Project Timeline
 |Dat Minh Nguyen |     dat.minhnguyen@gmail.com    | 21521937@gm.uit.edu.vn|
 
 --------
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+<!-- 
+<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p> -->
