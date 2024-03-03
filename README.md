@@ -1,5 +1,7 @@
 Predicting Discount Rates of Tiki Products EDA and Visualiaztion
 ==============================
+![Image Alt text](images/tiki_book.png)
+-------------------------------
 Project Description: 
 ------------------------------
 In this project, we aim to develop a predictive model to forecast the discount rates of products available on the popular e-commerce platform Tiki. With the abundance of online shopping options, consumers are often on the lookout for the best deals, and businesses need to strategically manage their pricing and promotional strategies. By predicting the discount rates of products, we can provide valuable insights to both consumers and businesses, enabling informed decision-making and optimization of various aspects of the retail process.
@@ -114,6 +116,7 @@ Task Assignments Responsibility
 |7|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |8|Demo App|Dat Minh Nguyen|
 |10|Report|Truc Mai-Thanh Nguyen|
+
 
 
 
