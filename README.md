@@ -46,6 +46,7 @@ Methods Used
 Project Organization
 ------------
 
+
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
@@ -101,7 +102,7 @@ Task Assignments Responsibility
 |4|Exploratory Data Analysis|Truc Mai-Thanh Nguyen  <br> Dat Minh Nguyen|
 |5|Predictive Modeling|Dat Minh Nguyen|
 |6|Data Visualization|Truc Mai-Thanh Nguyen|
-|7|Build Notebook (.ipynb)<br>Build Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
+|7|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |8|Demo App|Dat Minh Nguyen|
 |10|Report|Truc Mai-Thanh Nguyen|
 

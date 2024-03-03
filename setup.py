@@ -5,6 +5,6 @@ setup(
     packages=find_packages(),
     version='0.1.0',
     description='A short description of the project.',
-    author='Truc Mai-Thanh Nguyen',
+    author='Truc Mai-Thanh Nguyen, Dat Minh Nguyen',
     license='',
 )
