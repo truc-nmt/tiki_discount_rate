@@ -115,7 +115,6 @@ Task Assignments Responsibility
 |8|Demo App|Dat Minh Nguyen|
 |10|Report|Truc Mai-Thanh Nguyen|
 
-![Alt text]("[images/tiki_book.png](https://github.com/truc-nmt/tiki_discount_rate/blob/main/images/tiki_book.png)")
 
 
 
