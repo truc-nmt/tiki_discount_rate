@@ -1,5 +1,12 @@
 Predicting Discount Rates of Tiki Products EDA and Visualiaztion
 ==============================
+
+<p>
+    <small>Data Analysis and Visualization Course Project<br>
+    Faculty of Information Science and Engineering, University of Information Technology <br>
+    Vietnam National University, Ho Chi Minh City, Vietnam<br>
+</p>
+
 ![Image Alt text](images/tiki_book.png)
 -------------------------------
 Project Description: 
@@ -137,15 +144,11 @@ Task Assignments Responsibility
 |8|Demo App|Dat Minh Nguyen|
 |10|Report|Truc Mai-Thanh Nguyen|
 
+-------------------
 
 
 
 
 
---------
 
-<p>
-    <small>Data Analysis and Visualization Course Project<br>
-    Faculty of Information Science and Engineering, University of Information Technology <br>
-    Vietnam National University, Ho Chi Minh City, Vietnam<br>
-</p>
+
