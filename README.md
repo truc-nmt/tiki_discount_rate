@@ -70,7 +70,7 @@ Project Organization
         └── Makefile
     └── images
         └── tiki_book.png
-    └── models                  <- Model training
+    └── models                  <- Model trained
         └── .gitkeep
     └── notebooks               <- (.ipynb) notebook of project
         └── .gitkeep
