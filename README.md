@@ -143,5 +143,9 @@ Task Assignments Responsibility
 
 
 --------
-<!-- 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p> -->
+
+<p>
+    <small>Data Analysis and Visualization Course Project<br>
+    Faculty of Information Science and Engineering, University of Information Technology <br>
+    Vietnam National University, Ho Chi Minh City, Vietnam<br>
+</p>
