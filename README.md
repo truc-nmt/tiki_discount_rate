@@ -47,7 +47,13 @@ Methods Used
 
 Project Organization
 ------------
+    └── LICENSE
+    └── Makefile
+    └── README.md
     └── .gitignore
+    └── requirements.txt
+    └── setup.py
+    └── test_environment.py
     └── data <- Include raw data, processed data
         └── processed
             └── .gitkeep
@@ -64,21 +70,16 @@ Project Organization
         └── Makefile
     └── images
         └── tiki_book.png
-    └── LICENSE
-    └── Makefile
     └── models <- Model training
         └── .gitkeep
     └── notebooks <- (.ipynb) notebook of project
         └── .gitkeep
-    └── README.md
     └── references
         └── .gitkeep
     └── reports 
         └── .gitkeep
         └── figures
             └── .gitkeep
-    └── requirements.txt
-    └── setup.py
     └── src
         └── components
             └── data_ingestion.py
@@ -111,7 +112,7 @@ Project Organization
         └── PKG-INFO
         └── SOURCES.txt
         └── top_level.txt
-    └── test_environment.py
+
 
 ## Contributing Members
 
