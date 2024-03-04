@@ -90,22 +90,22 @@ Project Organization
             └── .gitkeep
             └── make_dataset.py
             └── __init__.py
-        └── exception.py
         └── features
             └── .gitkeep
             └── build_features.py
             └── __init__.py
-        └── logger.py
         └── models
             └── .gitkeep
             └── predict_model.py
             └── train_model.py
             └── __init__.py
-        └── utils.py
         └── visualization
             └── .gitkeep
             └── visualize.py
             └── __init__.py
+        └── logger.py
+        └── exception.py
+        └── utils.py
         └── __init__.py
     └── src.egg-info
         └── dependency_links.txt
