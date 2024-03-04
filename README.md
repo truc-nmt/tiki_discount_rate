@@ -73,7 +73,7 @@ Project Organization
     └── data                    <- Include raw data, processed data
         └── processed
             └── .gitkeep
-            └── Data_Tiki_Cleaned.csv
+            └── Data_Tiki_Cleaned.csv <- file csv after clean
         └── raw
             └── .gitkeep
             └── Data_Tiki_Raw.xlsx
