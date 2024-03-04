@@ -2,18 +2,26 @@ Predicting Discount Rates of Tiki Products EDA and Visualiaztion
 ==============================
 
 <p>
-    <small>Data Analysis and Visualization Course Project<br>
+    <small><b>Data Analysis and Visualization Project</b><br>
     Faculty of Information Science and Engineering, University of Information Technology <br>
     Vietnam National University, Ho Chi Minh City, Vietnam<br>
 </p>
 
-![Image Alt text](images/tiki_book.png)
+## Contributing Members
+
+|Name     |  Email   | Edu Mail|
+|---------|-----------------|----------------------|
+|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
+|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
+
+
 -------------------------------
 Project Description: 
 ------------------------------
 In this project, we aim to develop a predictive model to forecast the discount rates of products available on the popular e-commerce platform Tiki. With the abundance of online shopping options, consumers are often on the lookout for the best deals, and businesses need to strategically manage their pricing and promotional strategies. By predicting the discount rates of products, we can provide valuable insights to both consumers and businesses, enabling informed decision-making and optimization of various aspects of the retail process.
+![Image Alt text](images/tiki_book.png)
 
-Dataset Attributes
+Dataset 
 -------------------------------
 | Attribute         | Description                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
@@ -121,14 +129,7 @@ Project Organization
         └── top_level.txt
 
 
-## Contributing Members
 
-
-
-|Name     |  Email   | Edu Mail|
-|---------|-----------------|----------------------|
-|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
-|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
 
 Task Assignments Responsibility
 -----------------------------------
