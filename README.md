@@ -51,10 +51,10 @@ Project Organization
     └── Makefile
     └── README.md
     └── .gitignore
-    └── requirements.txt
+    └── requirements.txt        <- packages requirements
     └── setup.py
-    └── test_environment.py
-    └── data <- Include raw data, processed data
+    └── test_environment.py     <- test python version environment (python/python3)
+    └── data                    <- Include raw data, processed data
         └── processed
             └── .gitkeep
             └── Data_Tiki_Cleaned.csv
@@ -70,9 +70,9 @@ Project Organization
         └── Makefile
     └── images
         └── tiki_book.png
-    └── models <- Model training
+    └── models                  <- Model training
         └── .gitkeep
-    └── notebooks <- (.ipynb) notebook of project
+    └── notebooks               <- (.ipynb) notebook of project
         └── .gitkeep
     └── references
         └── .gitkeep
