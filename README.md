@@ -55,6 +55,7 @@ Methods Used
 ------------
 * Statistics
 * Machine Learning
+* Data Collection
 * Exploratory Data Analysis
 * Data Visualiaztion
 * Predictive Modeling 
