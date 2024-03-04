@@ -109,7 +109,7 @@ Task Assignments Responsibility
 |----|--------------|----------------------|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
-|3|Design Project|Truc Mai-Thanh Nguyen|
+|3|Project Organization|Truc Mai-Thanh Nguyen|
 |4|Exploratory Data Analysis|Truc Mai-Thanh Nguyen  <br> Dat Minh Nguyen|
 |5|Predictive Modeling|Dat Minh Nguyen|
 |6|Data Visualization|Truc Mai-Thanh Nguyen|
