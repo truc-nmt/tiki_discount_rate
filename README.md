@@ -102,9 +102,9 @@ Project Organization
 ■ setup.py
 ■ src
     ■ components                    <- Component end to end pipeline
-        ■ data_ingestion.py
-        ■ data_transformation.py
-        ■ model_trainer.py
+        ■ data_ingestion.py         <- Ingest data from source and split to train/test
+        ■ data_transformation.py    <- Transform data
+        ■ model_trainer.py          <- Train model and get results
         ■ __init__.py
     ■ data
         ■ .gitkeep
@@ -127,7 +127,7 @@ Project Organization
         ■ visualize.py
         ■ __init__.py
     ■ __init__.py
-■ test_environment.py
+■ test_environment.py           <- Test python environment python/python3
 ```
 
 
