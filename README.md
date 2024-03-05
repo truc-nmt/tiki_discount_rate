@@ -64,8 +64,6 @@ Methods Used
 Project Organization
 ------------
 ```
-
-■ .env
 ■ .gitignore
 ■ data
     ■ processed
@@ -86,23 +84,18 @@ Project Organization
     ■ Makefile
 ■ images
     ■ tiki_book.png
-■ LICENSE
-■ Makefile
 ■ models
     ■ .gitkeep
 ■ notebooks
     ■ .gitkeep
     ■ 1. Crawling Data.ipynb
     ■ 2. Cleaning Data.ipynb
-■ README.md
 ■ references
     ■ .gitkeep
 ■ reports
     ■ .gitkeep
     ■ figures
         ■ .gitkeep
-■ requirements.txt
-■ setup.py
 ■ src
     ■ components
         ■ data_ingestion.py
@@ -130,7 +123,12 @@ Project Organization
         ■ visualize.py
         ■ __init__.py
     ■ __init__.py
+■ requirements.txt
+■ setup.py
 ■ test_environment.py
+■ README.md
+■ LICENSE
+■ Makefile
 ```
 
 
