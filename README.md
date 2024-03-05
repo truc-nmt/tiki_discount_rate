@@ -127,10 +127,6 @@ Project Organization
         ■ visualize.py
         ■ __init__.py
     ■ __init__.py
-    ■ __pycache__
-        ■ exception.cpython-311.pyc
-        ■ logger.cpython-311.pyc
-        ■ __init__.cpython-311.pyc
 ■ test_environment.py
 ```
 
