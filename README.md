@@ -7,7 +7,7 @@ Predicting Discount Rates of Tiki Products EDA and Visualiaztion
     Vietnam National University, Ho Chi Minh City, Vietnam<br>
 </p>
 
-## Contributing Members
+## Contributors
 
 |Name     |  Email   | Edu Mail|
 |---------|-----------------|----------------------|
