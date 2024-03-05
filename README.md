@@ -101,7 +101,7 @@ Project Organization
 ■ requirements.txt
 ■ setup.py
 ■ src
-    ■ components
+    ■ components                    <- Component end to end pipeline
         ■ data_ingestion.py
         ■ data_transformation.py
         ■ model_trainer.py
