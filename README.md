@@ -64,70 +64,73 @@ Methods Used
 Project Organization
 ------------
 ```
-■ .gitignore
-■ data
-    ■ processed
-        ■ .gitkeep
-        ■ Data_Tiki_Cleaned.csv
-    ■ raw
-        ■ .gitkeep
-        ■ Data_Tiki_Raw.xlsx
-    ■ raw.csv
-    ■ test.csv
-    ■ train.csv
-■ docs
-    ■ commands.rst
-    ■ conf.py
-    ■ getting-started.rst
-    ■ index.rst
-    ■ make.bat
-    ■ Makefile
-■ images
-    ■ tiki_book.png
-■ LICENSE
-■ Makefile
-■ models
-    ■ .gitkeep
-■ notebooks
-    ■ .gitkeep
-    ■ 1. Crawling Data.ipynb
-■ README.md
-■ references
-    ■ .gitkeep
-■ reports
-    ■ .gitkeep
-    ■ figures
-        ■ .gitkeep
-■ requirements.txt
-■ setup.py
-■ src
-    ■ components                    <- Component end to end pipeline
-        ■ data_ingestion.py         <- Ingest data from source and split to train/test
-        ■ data_transformation.py    <- Transform data
-        ■ model_trainer.py          <- Train model and get results
-        ■ __init__.py
+■ tiki
+    ■ .env
+    ■ .gitignore
     ■ data
-        ■ .gitkeep
-        ■ make_dataset.py
-        ■ __init__.py
-    ■ exception.py
-    ■ features
-        ■ .gitkeep
-        ■ build_features.py
-        ■ __init__.py
-    ■ logger.py
+        ■ processed
+            ■ .gitkeep
+            ■ Data_Tiki_Cleaned.csv
+        ■ raw
+            ■ .gitkeep
+            ■ Data_Tiki_Raw.xlsx
+        ■ raw.csv
+        ■ test.csv
+        ■ train.csv
+    ■ docs
+        ■ commands.rst
+        ■ conf.py
+        ■ getting-started.rst
+        ■ index.rst
+        ■ make.bat
+        ■ Makefile
+    ■ images
+        ■ tiki_book.png
+    ■ LICENSE
+    ■ Makefile
     ■ models
         ■ .gitkeep
-        ■ predict_model.py
-        ■ train_model.py
-        ■ __init__.py
-    ■ utils.py
-    ■ visualization
+    ■ notebooks
         ■ .gitkeep
-        ■ visualize.py
+        ■ 1. Crawling Data.ipynb
+        ■ 2. Cleaning Data.ipynb
+    ■ README.md
+    ■ references
+        ■ .gitkeep
+    ■ reports
+        ■ .gitkeep
+        ■ figures
+            ■ .gitkeep
+    ■ requirements.txt
+    ■ setup.py
+    ■ src
+        ■ components
+            ■ data_ingestion.py
+            ■ data_transformation.py
+            ■ model_trainer.py
+            ■ __init__.py
+        ■ data
+            ■ .gitkeep
+            ■ make_dataset.py
+            ■ __init__.py
+        ■ exception.py
+        ■ features
+            ■ .gitkeep
+            ■ build_features.py
+            ■ __init__.py
+        ■ logger.py
+        ■ models
+            ■ .gitkeep
+            ■ predict_model.py
+            ■ train_model.py
+            ■ __init__.py
+        ■ utils.py
+        ■ visualization
+            ■ .gitkeep
+            ■ visualize.py
+            ■ __init__.py
         ■ __init__.py
-    ■ __init__.py
-■ test_environment.py           <- Test python environment python/python3
+    ■ test_environment.py
 ```
 
 
