@@ -63,71 +63,76 @@ Methods Used
 
 Project Organization
 ------------
-    └── LICENSE
-    └── Makefile
-    └── README.md
-    └── .gitignore
-    └── requirements.txt        <- packages requirements
-    └── setup.py
-    └── test_environment.py     <- test python version environment (python/python3)
-    └── data                    <- Include raw data, processed data
-        └── processed
-            └── .gitkeep
-            └── Data_Tiki_Cleaned.csv <- file csv after clean
-        └── raw
-            └── .gitkeep
-            └── Data_Tiki_Raw.xlsx
-    └── docs
-        └── commands.rst
-        └── conf.py
-        └── getting-started.rst
-        └── index.rst
-        └── make.bat
-        └── Makefile
-    └── images
-        └── tiki_book.png
-    └── models                  <- Model trained
-        └── .gitkeep
-    └── notebooks               <- (.ipynb) notebook of project
-        └── .gitkeep
-    └── references
-        └── .gitkeep
-    └── reports 
-        └── .gitkeep
-        └── figures
-            └── .gitkeep
-    └── src
-        └── components
-            └── data_ingestion.py
-            └── data_transformation.py
-            └── model_trainer.py
-            └── __init__.py
-        └── data
-            └── .gitkeep
-            └── make_dataset.py
-            └── __init__.py
-        └── features
-            └── .gitkeep
-            └── build_features.py
-            └── __init__.py
-        └── models
-            └── .gitkeep
-            └── predict_model.py
-            └── train_model.py
-            └── __init__.py
-        └── visualization
-            └── .gitkeep
-            └── visualize.py
-            └── __init__.py
-        └── logger.py
-        └── exception.py
-        └── utils.py
-        └── __init__.py
-    └── src.egg-info
-        └── dependency_links.txt
-        └── PKG-INFO
-        └── SOURCES.txt
-        └── top_level.txt
+```
+■ .gitignore
+■ data
+    ■ processed
+        ■ .gitkeep
+        ■ Data_Tiki_Cleaned.csv
+    ■ raw
+        ■ .gitkeep
+        ■ Data_Tiki_Raw.xlsx
+    ■ raw.csv
+    ■ test.csv
+    ■ train.csv
+■ docs
+    ■ commands.rst
+    ■ conf.py
+    ■ getting-started.rst
+    ■ index.rst
+    ■ make.bat
+    ■ Makefile
+■ images
+    ■ tiki_book.png
+■ LICENSE
+■ Makefile
+■ models
+    ■ .gitkeep
+■ notebooks
+    ■ .gitkeep
+    ■ 1. Crawling Data.ipynb
+■ README.md
+■ references
+    ■ .gitkeep
+■ reports
+    ■ .gitkeep
+    ■ figures
+        ■ .gitkeep
+■ requirements.txt
+■ setup.py
+■ src
+    ■ components
+        ■ data_ingestion.py
+        ■ data_transformation.py
+        ■ model_trainer.py
+        ■ __init__.py
+    ■ data
+        ■ .gitkeep
+        ■ make_dataset.py
+        ■ __init__.py
+    ■ exception.py
+    ■ features
+        ■ .gitkeep
+        ■ build_features.py
+        ■ __init__.py
+    ■ logger.py
+    ■ models
+        ■ .gitkeep
+        ■ predict_model.py
+        ■ train_model.py
+        ■ __init__.py
+    ■ utils.py
+    ■ visualization
+        ■ .gitkeep
+        ■ visualize.py
+        ■ __init__.py
+    ■ __init__.py
+    ■ __pycache__
+        ■ exception.cpython-311.pyc
+        ■ logger.cpython-311.pyc
+        ■ __init__.cpython-311.pyc
+■ test_environment.py
+```
 
 
 
