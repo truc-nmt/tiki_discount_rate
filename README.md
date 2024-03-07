@@ -99,7 +99,6 @@ Project Organization
         ■ .gitkeep
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
-    ■ README.md
     ■ references
         ■ .gitkeep
     ■ reports
@@ -121,6 +120,7 @@ Project Organization
         ■ logger.py
         ■ utils.py
         ■ __init__.py
+    ■ README.md
     ■ LICENSE
     ■ Makefile
     ■ requirements.txt
