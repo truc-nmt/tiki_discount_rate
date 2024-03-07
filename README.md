@@ -1,4 +1,4 @@
-Predicting Discount Rates of Tiki Products - Exploratory Data Analysis and Visualiaztion
+Predicting Discount Rates of Tiki Products - Exploratory Data Analysis and Visualization
 ==============================
 
 <p>
