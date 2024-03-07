@@ -163,7 +163,7 @@ Task Assignments Responsibility
 
 |<b>Project Duration: 4 Weeks</b>|||
 |---------------------------|----|----------------------|
-|__No.__|__Task__|__Resposibility Member__|
+|__No. of Task__|__Task__|__Resposibility Member__|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
 |3|Exploratory Data Analysis|Dat Minh Nguyen|
