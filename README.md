@@ -129,12 +129,12 @@ Project Organization
     ■ main.py
 ```
 
-Environment
+Test Environment (python/python3)
 -----------------
 ```
 python test_environment.py
 ```
-Packages Install
+Install Packages 
 -----------------
 ```
 pip install -r requirements.txt
