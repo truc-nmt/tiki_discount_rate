@@ -161,8 +161,8 @@ Results Comparision on Test set
 Task Assignments Responsibility
 -----------------------------------
 
-|<b>Project Duration: 4 Weeks<b>|||
-|----|--------------|----------------------|
+|<b>Project Duration: 4 Weeks</b>|||
+|---------------------------|----|----------------------|
 |__No.__|__Task__|__Resposibility Member__|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
@@ -171,6 +171,8 @@ Task Assignments Responsibility
 |5|Data Visualization|Truc Mai-Thanh Nguyen|
 |6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |7|Demo App|Dat Minh Nguyen|
+
+
 
 
 -------------------
