@@ -161,9 +161,10 @@ Results Comparision on Test set
 Task Assignments Responsibility
 -----------------------------------
 
-|<b>Project Duration: 4 Weeks</b>|||
-|---------------------------|----|----------------------|
+<b>Project Duration: 4 Weeks </b>(From 26th November, 2023 to 27th December, 2023)
+
 |__No. of Task__|__Task__|__Resposibility Member__|
+|---------------------------|----|----------------------|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
 |3|Exploratory Data Analysis|Dat Minh Nguyen|
@@ -171,6 +172,8 @@ Task Assignments Responsibility
 |5|Data Visualization|Truc Mai-Thanh Nguyen|
 |6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |7|Demo App|Dat Minh Nguyen|
+|8|Report|Truc Mai-Thanh Nguyen|
+
 
 
 
