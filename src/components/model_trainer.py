@@ -15,7 +15,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from xgboost import XGBRegressor
 
-sys.path.append("D:\My VSCode")
+
 from src.exception import CustomException
 from src.logger import logging
 
