@@ -8,15 +8,31 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder
 
 from src.utils import save_object
 from src.exception import CustomException
 from src.logger import logging
+class MultiColumnLabelEncoder:
 
+    def __init__(self, columns=None):
+        self.columns = columns if columns else []
+
+    def fit(self, X, y=None):
+        return self
+
+    def transform(self, X):
+        X_ = X.copy()
+        for col in self.columns:
+            le = LabelEncoder()
+            X_[col] = le.fit_transform(X_[col])
+        return X_
+
+    def fit_transform(self, X, y=None):
+        return self.fit(X).transform(X)
 @dataclass 
 class DataTransformationConfig:
-    preprocessor_obj_file_path = os.path.join("models", "preprocessor.pkl")
+    preprocessor_obj_file_path = os.path.join("data", "preprocessor.pkl")
 
 class DataTransformation:
 
@@ -70,46 +86,40 @@ class DataTransformation:
                                 'Width',
                                 'Length',
                                 'Height',
-                                'Product ID',
+                                'Product_ID',
                                 'Price',
-                                'Original Price',
+                                'Original_Price',
                                 'Discount',
-                                'Discount Rate',
+                                # 'Discount_Rate', # target
                                 'Rating',
-                                'Review Count',
-                                'Quantity Sold',
-                                'Number of page',
-                                'Publication Year'
+                                'Review_Count',
+                                'Quantity_Sold',
+                                'Number_of_page',
+                                'Publication_Year'
                                 ]
             # categorical_columns = df.select_dtypes(include=['object']).columns.tolist()
             categorical_columns = [
-                                    # 'Name',  # not use 
-                                    # 'Link Product', # not use
-                                    'Store',
-                                    'Type',
-                                    'Author Name',
-                                    # 'Short Description', # not use
-                                    'Publisher',
-                                    'Translators',
-                                    'Categories',
-                                    'Range Price',
-                                    # 'Publication Date' # not use
-                                    ]
+                                'Store',
+                                'Type',
+                                'Author_Name',
+                                'Publisher',
+                                'Translators',
+                                'Categories',
+                                'Range_Price',
+                            ]
             
             # Pipeline
 
             num_pipeline = Pipeline(
                 steps = [
-                    ("imputer", SimpleImputer(strategy="median")),
+                    # ("imputer", SimpleImputer(strategy="median")),
                     ("scaler", StandardScaler())
                 ]
             )
 
             cate_pipeline = Pipeline(
-
-                steps = [
-                    ("Imputer", SimpleImputer(strategy="most_frequent")),
-                    ("one_hot_encoder", OneHotEncoder()),
+                steps=[
+                    ("label_encoder", MultiColumnLabelEncoder(columns=categorical_columns)),
                     ("scaler", StandardScaler(with_mean=False))
                 ]
             )
@@ -124,7 +134,7 @@ class DataTransformation:
             preprocessor = ColumnTransformer(
                 [
                     ("num_pipeline", num_pipeline, numerical_columns),
-                    ("cate_pipeline", cate_pipeline, categorical_columns)
+                    ("cate_pipeline", cate_pipeline, categorical_columns),
                 ]
             )
 
@@ -139,16 +149,21 @@ class DataTransformation:
             train_df = pd.read_csv(train_path)
             test_df = pd.read_csv(test_path)
 
+            print(train_df.columns)
+            print(test_df.columns)
+
             logging.info("read train and test data completed!")
             logging.info("Obtaining preprocessing object")
 
             preprocessing_obj = self.get_data_transformation_object()
 
-            target_column_name = "Discount Rate"
-            # numerical_columns = [""]
+            target_column_name = "Discount_Rate"
+            numerical_columns = train_df.select_dtypes(include=['number']).columns.tolist()
+            print(numerical_columns)
 
-
+            
             input_feature_train_df = train_df.drop(columns=[target_column_name], axis = 1)
+            print(input_feature_train_df.info)
             target_feature_train_df = train_df[target_column_name]
 
             input_feature_test_df = test_df.drop(columns=[target_column_name], axis = 1)
@@ -160,7 +175,7 @@ class DataTransformation:
             input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
 
             train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
-            test_arr = np.c_[input_feature_test_arr, np.array[target_feature_test_df]]
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
 
             logging.info(f"Saved preprocessing object.")
 
@@ -173,3 +188,9 @@ class DataTransformation:
 
         except Exception as e:
             raise CustomException(e, sys)
+        
+
+        
+
+    
+        
