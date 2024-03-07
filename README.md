@@ -1,4 +1,4 @@
-Predicting Discount Rates of Tiki Products EDA and Visualiaztion
+Predicting Discount Rates of Tiki Products - Exploratory Data Analysis and Visualiaztion
 ==============================
 
 <p>
@@ -55,16 +55,16 @@ Methods Used
 ------------
 * Statistics
 * Machine Learning
-* Data Collection
+* Data Collection/Web-Scraping
 * Exploratory Data Analysis
 * Data Visualiaztion
-* Predictive Modeling 
 
 
 Project Organization
 ------------
 ```
 ■ tiki_discount_rate
+    ■ .gitignore
     ■ catboost_info
         ■ catboost_training.json
         ■ learn
@@ -99,6 +99,7 @@ Project Organization
         ■ .gitkeep
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
+    ■ README.md
     ■ references
         ■ .gitkeep
     ■ reports
@@ -111,51 +112,66 @@ Project Organization
             ■ data_transformation.py
             ■ model_trainer.py
             ■ __init__.py
-        ■ data
-            ■ .gitkeep
-            ■ make_dataset.py
-            ■ __init__.py
-        ■ exception.py
-        ■ features
-            ■ .gitkeep
-            ■ build_features.py
-            ■ __init__.py
-        ■ logger.py
         ■ models
             ■ .gitkeep
             ■ predict_model.py
             ■ train_model.py
             ■ __init__.py
+        ■ exception.py
+        ■ logger.py
         ■ utils.py
-        ■ visualization
-            ■ .gitkeep
-            ■ visualize.py
-            ■ __init__.py
         ■ __init__.py
-    ■ README.md
     ■ LICENSE
     ■ Makefile
     ■ requirements.txt
-    ■ setup.py
     ■ test_environment.py
+    ■ setup.py
+    ■ main.py
 ```
 
+Environment
+-----------------
+```
+python test_environment.py
+```
+Packages Install
+-----------------
+```
+pip install -r requirements.txt
+```
+Run code
+-----------------
+```
+python main.py
+```
 
+Results Comparision on Test set
+-----------------------------
+|Model|R2 Score|MSE|MAE|
+|--------|------|----|---|
+|Random Forest|0.985|2.079|0.784|
+|Decision Tree|0.676|43.638|4.534|
+|Gradient Boosting|0.894|14.242|2.803|
+|Linear Regression|0.618|51.583|5.629|
+|__XGBRegressor__|__0.992__|__1.067__|__0.658__|        
+|CatBoosting Regressor|0.971|3.890|1.355|
+|AdaBoost Regressor|0.894|14.211|2.843|
 
 
 Task Assignments Responsibility
 -----------------------------------
-|No.|Task|Resposibility Member|
+
+|<b>Project Duration: 4 Weeks<b>|||
 |----|--------------|----------------------|
+|__No.__|__Task__|__Resposibility Member__|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
-|3|Project Organization|Truc Mai-Thanh Nguyen|
-|4|Exploratory Data Analysis|Truc Mai-Thanh Nguyen  <br> Dat Minh Nguyen|
-|5|Predictive Modeling|Dat Minh Nguyen|
-|6|Data Visualization|Truc Mai-Thanh Nguyen|
-|7|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
-|8|Demo App|Dat Minh Nguyen|
-|10|Report|Truc Mai-Thanh Nguyen|
+|3|Exploratory Data Analysis|Dat Minh Nguyen|
+|4|Predictive Modeling|Truc Mai-Thanh Nguyen|
+|5|Data Visualization|Truc Mai-Thanh Nguyen|
+|6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
+|7|Demo App|Dat Minh Nguyen|
+
 
 -------------------
 
