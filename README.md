@@ -168,8 +168,8 @@ Task Assignments Responsibility
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
 |3|Exploratory Data Analysis|Dat Minh Nguyen|
-|4|Predictive Modeling|Truc Mai-Thanh Nguyen|
-|5|Data Visualization|Truc Mai-Thanh Nguyen|
+|4|Modeling|Truc Mai-Thanh Nguyen|
+|5|Data Visualization <br> Dashboard|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |7|Demo App|Dat Minh Nguyen|
 |8|Report|Truc Mai-Thanh Nguyen|
