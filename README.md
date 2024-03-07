@@ -9,10 +9,10 @@ Predicting Discount Rates of Tiki Products - Exploratory Data Analysis and Visua
 
 ## Contributors
 
-|Name     |  Email   | Edu Mail|
-|---------|-----------------|----------------------|
-|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
-|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
+|Student ID|Name     |  Email   | Edu Mail|
+|-----|---------|-----------------|----------------------|
+|21522721|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
+|21521937|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
 
 
 -------------------------------
