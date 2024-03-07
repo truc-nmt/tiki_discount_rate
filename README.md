@@ -111,11 +111,6 @@ Project Organization
             ■ data_transformation.py
             ■ model_trainer.py
             ■ __init__.py
-        ■ models
-            ■ .gitkeep
-            ■ predict_model.py
-            ■ train_model.py
-            ■ __init__.py
         ■ exception.py
         ■ logger.py
         ■ utils.py
