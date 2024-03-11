@@ -99,6 +99,7 @@ Project Organization
         ■ .gitkeep
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
+        ■ 3. Exploratory Data Analysis.ipynb
     ■ references
         ■ .gitkeep
     ■ reports
@@ -164,7 +165,7 @@ Task Assignments Responsibility
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
 |3|Exploratory Data Analysis|Dat Minh Nguyen|
 |4|Modeling|Truc Mai-Thanh Nguyen|
-|5|Data Visualization <br> Dashboard|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
+|5|Data Visualization <br> Dashboard (Tableau)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
 |7|Demo App|Dat Minh Nguyen|
 |8|Report|Truc Mai-Thanh Nguyen|
