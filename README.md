@@ -124,7 +124,11 @@ Project Organization
     ■ setup.py
     ■ main.py
 ```
-
+Clone the Repository
+------------------
+```
+git clone https://github.com/truc-nmt/tiki_discount_rate.git
+```
 Test Environment (python/python3)
 -----------------
 ```
