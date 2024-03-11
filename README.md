@@ -57,7 +57,7 @@ Methods Used
 * Machine Learning
 * Data Collection/Web-Scraping
 * Exploratory Data Analysis
-* Data Visualiaztion
+* Data Visualization
 
 
 Project Organization
