@@ -176,6 +176,8 @@ Task Assignments Responsibility
 
 <b>Project Duration: 4 Weeks </b>(From 26th November, 2023 to 27th December, 2023)
 
+![Image 1](images/timeline.png)
+
 |__No. of Task__|__Task__|__Resposibility Member__|
 |---------------------------|----|----------------------|
 |1|Crawling Data|Dat Minh Nguyen|
