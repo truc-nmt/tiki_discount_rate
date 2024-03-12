@@ -83,13 +83,18 @@ Project Organization
         ■ raw.csv
         ■ test.csv
         ■ train.csv
-    ■ docs
-        ■ commands.rst
-        ■ conf.py
-        ■ getting-started.rst
-        ■ index.rst
-        ■ make.bat
-        ■ Makefile
+    ■ Data Visualization
+        ■ boxplot.png
+        ■ category_discount_rate_relationship.png
+        ■ correlation_matrix.png
+        ■ discount_rate_over_years.png
+        ■ distribution.png
+        ■ price_range_discount_rate.png
+        ■ rating_discount_rate.png
+        ■ top_10_big_store.png
+        ■ top_10_highest_discount_rate_products.png
+        ■ top_10_highest_discount_stores.png
+        ■ top_products_sold_discount_rate.png
     ■ images
         ■ tiki_book.png
     ■ models
@@ -99,7 +104,7 @@ Project Organization
         ■ .gitkeep
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
-        ■ 3. Exploratory Data Analysis.ipynb
+        ■ 3. Exploratory-Data-Analysis.ipynb
     ■ references
         ■ .gitkeep
     ■ reports
@@ -110,6 +115,7 @@ Project Organization
         ■ components
             ■ data_ingestion.py
             ■ data_transformation.py
+            ■ data_visualization.py
             ■ model_trainer.py
             ■ __init__.py
         ■ exception.py
@@ -139,7 +145,7 @@ Install Packages
 ```
 pip install -r requirements.txt
 ```
-Run code
+Run Code
 -----------------
 ```
 python main.py
