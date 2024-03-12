@@ -83,7 +83,7 @@ Project Organization
         ■ raw.csv
         ■ test.csv
         ■ train.csv
-    ■ Data Visualization
+    ■ visualization
         ■ boxplot.png
         ■ category_discount_rate_relationship.png
         ■ correlation_matrix.png
@@ -162,6 +162,13 @@ Results Comparision on Test set
 |__XGBRegressor__|__0.992__|__1.067__|__0.658__|        
 |CatBoosting Regressor|0.971|3.890|1.355|
 |AdaBoost Regressor|0.894|14.211|2.843|
+
+<!-- Visualization
+------------------------------------
+
+![Image 1](visualization/boxplot.png)
+
+![Image 2](visualization\category_discount_rate_relationship.png) -->
 
 
 Task Assignments Responsibility
