@@ -1,4 +1,4 @@
-Predicting Discount Rates of Tiki Products EDA and Visualiaztion
+Predicting Discount Rates of Tiki Products - Exploratory Data Analysis and Visualization
 ==============================
 
 <p>
@@ -7,12 +7,12 @@ Predicting Discount Rates of Tiki Products EDA and Visualiaztion
     Vietnam National University, Ho Chi Minh City, Vietnam<br>
 </p>
 
-## Contributing Members
+## Contributors
 
-|Name     |  Email   | Edu Mail|
-|---------|-----------------|----------------------|
-|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
-|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
+|Student ID|Name     |  Email   | Edu Mail|
+|-----|---------|-----------------|----------------------|
+|21522721|Truc Mai-Thanh Nguyen| truc.ngmaithanh@gmail.com | 21522721@gm.uit.edu.vn|
+|21521937|Dat Minh Nguyen |     nguyenminhdatyasuo@gmail.com    | 21521937@gm.uit.edu.vn|
 
 
 -------------------------------
@@ -55,96 +55,128 @@ Methods Used
 ------------
 * Statistics
 * Machine Learning
-* Data Collection
+* Data Collection/Web-Scraping
 * Exploratory Data Analysis
-* Data Visualiaztion
-* Predictive Modeling 
+* Data Visualization
 
 
 Project Organization
 ------------
-    └── LICENSE
-    └── Makefile
-    └── README.md
-    └── .gitignore
-    └── requirements.txt        <- packages requirements
-    └── setup.py
-    └── test_environment.py     <- test python version environment (python/python3)
-    └── data                    <- Include raw data, processed data
-        └── processed
-            └── .gitkeep
-            └── Data_Tiki_Cleaned.csv <- file csv after clean
-        └── raw
-            └── .gitkeep
-            └── Data_Tiki_Raw.xlsx
-    └── docs
-        └── commands.rst
-        └── conf.py
-        └── getting-started.rst
-        └── index.rst
-        └── make.bat
-        └── Makefile
-    └── images
-        └── tiki_book.png
-    └── models                  <- Model trained
-        └── .gitkeep
-    └── notebooks               <- (.ipynb) notebook of project
-        └── .gitkeep
-    └── references
-        └── .gitkeep
-    └── reports 
-        └── .gitkeep
-        └── figures
-            └── .gitkeep
-    └── src
-        └── components
-            └── data_ingestion.py
-            └── data_transformation.py
-            └── model_trainer.py
-            └── __init__.py
-        └── data
-            └── .gitkeep
-            └── make_dataset.py
-            └── __init__.py
-        └── features
-            └── .gitkeep
-            └── build_features.py
-            └── __init__.py
-        └── models
-            └── .gitkeep
-            └── predict_model.py
-            └── train_model.py
-            └── __init__.py
-        └── visualization
-            └── .gitkeep
-            └── visualize.py
-            └── __init__.py
-        └── logger.py
-        └── exception.py
-        └── utils.py
-        └── __init__.py
-    └── src.egg-info
-        └── dependency_links.txt
-        └── PKG-INFO
-        └── SOURCES.txt
-        └── top_level.txt
+```
+■ tiki_discount_rate
+    ■ .gitignore
+    ■ catboost_info
+        ■ catboost_training.json
+        ■ learn
+            ■ events.out.tfevents
+        ■ learn_error.tsv
+        ■ time_left.tsv
+        ■ tmp
+    ■ data
+        ■ preprocessor.pkl
+        ■ processed
+            ■ .gitkeep
+            ■ Data_Tiki_Cleaned.csv
+        ■ raw
+            ■ .gitkeep
+            ■ Data_Tiki_Raw.xlsx
+        ■ raw.csv
+        ■ test.csv
+        ■ train.csv
+    ■ docs
+        ■ commands.rst
+        ■ conf.py
+        ■ getting-started.rst
+        ■ index.rst
+        ■ make.bat
+        ■ Makefile
+    ■ images
+        ■ tiki_book.png
+    ■ models
+        ■ .gitkeep
+        ■ model.pkl
+    ■ notebooks
+        ■ .gitkeep
+        ■ 1. Crawling Data.ipynb
+        ■ 2. Cleaning Data.ipynb
+        ■ 3. Exploratory Data Analysis.ipynb
+    ■ references
+        ■ .gitkeep
+    ■ reports
+        ■ .gitkeep
+        ■ figures
+            ■ .gitkeep
+    ■ src
+        ■ components
+            ■ data_ingestion.py
+            ■ data_transformation.py
+            ■ model_trainer.py
+            ■ __init__.py
+        ■ exception.py
+        ■ logger.py
+        ■ utils.py
+        ■ __init__.py
+    ■ README.md
+    ■ LICENSE
+    ■ Makefile
+    ■ requirements.txt
+    ■ test_environment.py
+    ■ setup.py
+    ■ main.py
+```
+Clone the Repository
+------------------
+```
+git clone https://github.com/truc-nmt/tiki_discount_rate.git
+```
+Test Environment (python/python3)
+-----------------
+```
+python test_environment.py
+```
+Install Packages 
+-----------------
+```
+pip install -r requirements.txt
+```
+Run code
+-----------------
+```
+python main.py
+```
 
-
+Results Comparision on Test set
+-----------------------------
+|Model|R2 Score|MSE|MAE|
+|--------|------|----|---|
+|Random Forest|0.985|2.079|0.784|
+|Decision Tree|0.676|43.638|4.534|
+|Gradient Boosting|0.894|14.242|2.803|
+|Linear Regression|0.618|51.583|5.629|
+|__XGBRegressor__|__0.992__|__1.067__|__0.658__|        
+|CatBoosting Regressor|0.971|3.890|1.355|
+|AdaBoost Regressor|0.894|14.211|2.843|
 
 
 Task Assignments Responsibility
 -----------------------------------
-|No.|Task|Resposibility Member|
-|----|--------------|----------------------|
+
+<b>Project Duration: 4 Weeks </b>(From 26th November, 2023 to 27th December, 2023)
+
+|__No. of Task__|__Task__|__Resposibility Member__|
+|---------------------------|----|----------------------|
 |1|Crawling Data|Dat Minh Nguyen|
 |2|Cleaning Data|Truc Mai-Thanh Nguyen|
-|3|Project Organization|Truc Mai-Thanh Nguyen|
-|4|Exploratory Data Analysis|Truc Mai-Thanh Nguyen  <br> Dat Minh Nguyen|
-|5|Predictive Modeling|Dat Minh Nguyen|
-|6|Data Visualization|Truc Mai-Thanh Nguyen|
-|7|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
-|8|Demo App|Dat Minh Nguyen|
-|10|Report|Truc Mai-Thanh Nguyen|
+|3|Exploratory Data Analysis|Dat Minh Nguyen|
+|4|Modeling|Truc Mai-Thanh Nguyen|
+|5|Data Visualization <br> Dashboard (Tableau)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
+|6|Notebook (.ipynb)<br>Source (.py)|Dat Minh Nguyen <br> Truc Mai-Thanh Nguyen|
+|7|Demo App|Dat Minh Nguyen|
+|8|Report|Truc Mai-Thanh Nguyen|
+
+
+
+
 
 -------------------
 
