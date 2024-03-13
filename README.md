@@ -65,13 +65,6 @@ Project Organization
 ```
 ■ tiki_discount_rate
     ■ .gitignore
-    ■ catboost_info
-        ■ catboost_training.json
-        ■ learn
-            ■ events.out.tfevents
-        ■ learn_error.tsv
-        ■ time_left.tsv
-        ■ tmp
     ■ data
         ■ preprocessor.pkl
         ■ processed
@@ -97,21 +90,27 @@ Project Organization
         ■ top_products_sold_discount_rate.png
     ■ images
         ■ tiki_book.png
+        ■ timeline.png
     ■ models
         ■ .gitkeep
         ■ model.pkl
+    ■ reports
+        ■ .gitkeep
+        ■ figures
+            ■ .gitkeep
+    ■ catboost_info
+        ■ catboost_training.json
+        ■ learn
+            ■ events.out.tfevents
+        ■ learn_error.tsv
+        ■ time_left.tsv
+        ■ tmp
     ■ notebooks
         ■ .gitkeep
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
         ■ 3. Exploratory-Data-Analysis.ipynb
         ■ 4. Modeling.ipynb
-    ■ references
-        ■ .gitkeep
-    ■ reports
-        ■ .gitkeep
-        ■ figures
-            ■ .gitkeep
     ■ src
         ■ components
             ■ data_ingestion.py

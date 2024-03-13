@@ -19,7 +19,7 @@ from xgboost import XGBRegressor
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object, evaluate_models
-
+import pandas as pd
 @dataclass 
 class ModelTrainerConfig:
     train_model_file_path = os.path.join("models", "model.pkl")
@@ -91,9 +91,9 @@ class ModelTrainer:
 
             # Print all model results
             logging.info("Model results:")
-            for model_name, scores in model_report.items():
-                logging.info(f"{model_name}: Train R2 Score - {scores[0]}, Test R2 Score - {scores[1]}, MSE - {scores[2]}, MAE - {scores[3]}") # Save in log file
-                print((f"{model_name}: Train R2 Score - {scores[0]}, Test R2 Score - {scores[1]}, MSE - {scores[2]}, MAE - {scores[3]}"))
+
+            model_results_df = self.create_dataframe_from_results(model_report)
+            print(model_results_df)
 
             # Find the best model based on test R2 score
             best_model_name = max(model_report, key=lambda k: model_report[k][1])  # Choose based on test R2 score
@@ -111,9 +111,19 @@ class ModelTrainer:
 
             # Return the test R2 score, MSE, and MAE of the best model
             print("Final Best Model after Fine-tune with Hyper Paramaters")
-            return best_model_scores[1], best_model_scores[2], best_model_scores[3]
+            return best_model_scores[0], best_model_scores[1], best_model_scores[2], best_model_scores[3]
 
         except Exception as e:
             raise CustomException(e, sys)
+
+    def create_dataframe_from_results(self, model_report):
+        data = []
+        for model_name, scores in model_report.items():
+            logging.info(f"{model_name}: Train R2 Score - {scores[0]}, Test R2 Score - {scores[1]}, MSE - {scores[2]}, MAE - {scores[3]}") # Save in log file
+            data.append([model_name, scores[0], scores[1], scores[2], scores[3]])
+        df = pd.DataFrame(data, columns=['Model', 'Train R2 Score', 'Test R2 Score', 'MSE', 'MAE'])
+        return df
+
+   
 
    
