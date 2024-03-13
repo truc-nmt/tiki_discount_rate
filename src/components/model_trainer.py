@@ -51,6 +51,7 @@ class ModelTrainer:
                 "AdaBoost Regressor": AdaBoostRegressor(),
             }
 
+            # Fine-tune Hyper Parameter
             params = {
                 "Decision Tree": {
                     'criterion': ['poisson', 'absolute_error', 'friedman_mse', 'squared_error'],
@@ -63,10 +64,10 @@ class ModelTrainer:
                     'n_estimators': [8, 16, 32, 64, 128, 256]
                 },
                 "Gradient Boosting": {
-                    'loss': ['ls', 'lad', 'huber', 'quantile'],
+                    'loss': ['squared_error', 'absolute_error', 'quantile', 'huber'],
                     'learning_rate': [0.1, 0.01, 0.05, 0.001],
                     'subsample': [0.6, 0.7, 0.75, 0.8, 0.85, 0.9],
-                    'max_features': ['None', 'sqrt', 'log2'],
+                    'max_features': ['sqrt', 'log2'],
                     'n_estimators': [8, 16, 32, 64, 128, 256]
                 },
                 "Linear Regression": {},
@@ -109,6 +110,7 @@ class ModelTrainer:
             save_object(file_path=self.model_trainer_config.train_model_file_path, obj=best_model)
 
             # Return the test R2 score, MSE, and MAE of the best model
+            print("Final Best Model after Fine-tune with Hyper Paramaters")
             return best_model_scores[1], best_model_scores[2], best_model_scores[3]
 
         except Exception as e:
