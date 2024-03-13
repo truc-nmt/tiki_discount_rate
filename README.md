@@ -105,6 +105,7 @@ Project Organization
         ■ 1. Crawling Data.ipynb
         ■ 2. Cleaning Data.ipynb
         ■ 3. Exploratory-Data-Analysis.ipynb
+        ■ 4. Modeling.ipynb
     ■ references
         ■ .gitkeep
     ■ reports
